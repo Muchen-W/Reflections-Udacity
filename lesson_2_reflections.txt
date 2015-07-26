@@ -15,3 +15,8 @@ git checkout [branch_name] # switch to the branch
 
 How do the diagrams help you visualize the branch structure?
 git checkout -b [branch_name] # make a new branch and switch to it immediately
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+git log --graph --oneline
+git merge [branch_1] [branch_2]
+git branch -d [branch_2]

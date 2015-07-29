@@ -20,3 +20,6 @@ What is the result of merging two branches together? Why do we represent it in t
 git log --graph --oneline
 git merge [branch_1] [branch_2]
 git branch -d [branch_2]
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+git log -n 1 # show (n=1) log entry

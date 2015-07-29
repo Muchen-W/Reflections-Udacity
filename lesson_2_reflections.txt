@@ -6,6 +6,10 @@ staging area temporarily stores the files that are ready for being committed.
 
 How can you use the staging area to make sure you have one commit per logical change?
 working directory -> (git add) -> staging area -> (git commit) -> repository
+git add [file]
+git commit -m ["message"]
+git status # check the status of staging area
+git diff # without any option, find difference between files in working directory and files in staging area
 
 git checkout master
 

@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+git remote # check the connection status to the remote GitHub from local
+git remote add [origin] [https link of GitHub repo] # connect GitHub repository to the local called origin by attaching the url link of the repo.
+git push origin master # push all commits of master that GitHub repo does not include to the repo represented as origin

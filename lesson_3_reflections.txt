@@ -4,3 +4,8 @@ git remote # check the connection status to the remote GitHub from local
 git remote add [origin] [https link of GitHub repo] # connect GitHub repository to the local called origin by attaching the url link of the repo.
 git push origin master # push all commits of local master branch that GitHub repo does not include to origin (GitHub repo)
 git pull origin master # pull all commits from origin (GitHub repo) that does not exist at local to the local master branch
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+fork: GitHub repo -> GitHub repo
+clone: GitHub repo -> local repo; git clone [url]
+branch: local repo -> local repo; git branch [branch_name]; git checkout [branch_name] || git checkout -b [branch_name]

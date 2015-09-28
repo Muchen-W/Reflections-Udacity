@@ -12,3 +12,6 @@ branch: local repo -> local repo; git branch [branch_name]; git checkout [branch
 
 3. What is the benefit of having a copy of the last known state of the remote stored locally?
 git fetch + git merge [master] [origin/master] <==> git pull origin master # sync/merge conflicted copies from local repo and GitHub repo # 'git pull' is a 'fast-merge'
+
+4. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+git push <origin_name> <branch_name> # push local branch to branch at GitHub repo
